@@ -5,8 +5,13 @@ Built with plain HTML, CSS, and JavaScript using a <canvas>-based image overlay 
 
 Features
 
+
 Greyscale → color reveal on hover or tap
+
 Clickable gear items with modal descriptions
+
 Supports multi-part items (e.g. skis, poles)
+
 No frameworks, no build step
+
 Fully static (GitHub Pages friendly)
