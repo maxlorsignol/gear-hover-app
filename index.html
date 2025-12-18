@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gear Hover Reveal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="stage">
+    <div class="canvasWrap">
+      <canvas id="c"></canvas>
+
+      <!-- Modal -->
+      <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modalCard">
+          <div class="modalHeader">
+            <h2 id="modalTitle"></h2>
+            <button id="closeBtn" class="iconBtn" aria-label="Close">✕</button>
+          </div>
+          <div id="modalBody" class="modalBody"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
